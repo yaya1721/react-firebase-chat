@@ -1,11 +1,4 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import { initializeApp } from 'firebase/app';
-
-import registerServiceWorker from './registerServiceWorker';
-
-const firebaseConfig = {
+{
   "type": "service_account",
   "project_id": "tinderxreal",
   "private_key_id": "6f261b67c728f083f6698d1a690e5a50baf6f264",
@@ -17,8 +10,3 @@ const firebaseConfig = {
   "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
   "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-f02tr%40tinderxreal.iam.gserviceaccount.com"
 }
-
-initializeApp(firebaseConfig);
-
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
