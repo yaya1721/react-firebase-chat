@@ -6,16 +6,6 @@ import { initializeApp } from 'firebase/app';
 import registerServiceWorker from './registerServiceWorker';
 
 const firebaseConfig = {
-  "type": "service_account",
-  "project_id": "tinderxreal",
-  "private_key_id": "6f261b67c728f083f6698d1a690e5a50baf6f264",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDlYEhn+olc6w+V\nBQXXvyjef2gQxGsZfr6kKPjkVXEPxW85rq6EQ1UI+o+LLZl45ILN1fT5E+VId9Vs\nS7u4yjtOnBTL5bCtiGGUDGs4SiuGF/bma5H5DsfWUvvJZROa1abyQU/hkH5FFX0P\nAoUftFG8kxCqe4+9fsbHvOlEsTvUrrHY9TW27e9N+LFeCfanJWzp1KlmoSPy5+wU\nNwAjGObUCirZx9i1gZBPzVISq1GklhAXxO+dtfaqW/ZcYwvMCn0I4xKqM+u9TRuR\nwBHwgQXXOIFiu3r2XIXGUuo93Wgn7P4u0Gts6sxmucWOHMHHwu8XqqyAcIXetuYq\nqpalaoTvAgMBAAECggEAD2qF3fHUDZoBdW3dqKnBC23bW//M2u0jzvtZ+a6sZ0zz\ntBgYw+w/6Nc+PTJsCtirhJNetZGFastzB/ucZZ0MmLSbc+C/cR+mFJczwELBOMVK\nOM5TWekzu88z+6MpdXyVOIRJ5B/Gp3Sm771RnoHgryCLPDS1wnH6K4PM1xW6WbQ2\nGvAUVeOuV/9CtSaZnPojodalCGBqXqILXWDsy3hYb4fcLKpfw+HFnGSffeq/koEd\nUcw6A8aIV4FKAMv731KUICwE0Qa+SmLhBmL080cPvmIdNkfCPJIE2yGVyCU9q6ui\nazIts2N4KiK0zffDD+eOnLeIL1CC8CJ+25K5ePf5IQKBgQD9vPZiMVZDo01NUpBY\nvIxfJgwZNe/fHqHrTzYoNsg9rvEQSL8XC6xUH3EEJvbluqQTKvXr2E5n4QyCjNVn\nfaRzJ8q49RkKfAuHjUAYXyDDl62ULlmWCzEoz6HKWtFwNGqp4vemqBiBJkXWS3VJ\nlR3LtlxEPE0hS4QIowwEmkUluQKBgQDna7m+hdzb2P6xtU2/9e0jO1cF9baSkmE9\n+/fYGAhdXQf+rVODRCZIu7gaKZHF2Y3gZKPcmRXLk/BRoY/F0uLprQLTxsyS19/a\nshYoPn724RYW/U44NICP2UvTfnB9CD2CgvzKLgdJajXE1Qub3T/6pCzC7FYZBRvA\n2mgl4V7T5wKBgGLk7kaRIiUUlcFoR5g+TJudEaQV0Jrurn8vDVWZHGxmLdCB+fB6\nfT0AUCUlJp+dIevSl6zHTq/QF/cd+uLuJlU3khyKcqsSc8/uLqgRE40IJgAWHJaN\nYCie3FkpEm4gD96M9qb+5yYXC6sdF+aI9ub5+XYi5pDuhNR07+8vTXoJAoGAe0z0\nTES6ZhB5s2lsIYkAbjMhrLU8L1/6m7HyXZqAam404karJldbJomOD7JyTr4ZT6OP\nguu1pyANfRDdr4MrD2H1DazwNpT6WmVkVNDniNZolJsl3+BpVztpoSfO+282hqEP\n2xEnJMCIIXV5l/QMMJjkmH6faPlFzj0QHI61naUCgYEAkJYdpiJVaob9wdQy+FEV\nkC4etMykzIQo2TPCSE4XZKAvx23+8o9r/z+F7jKqYPqrh4JXyCPb+2LSKcOloPi3\nK7h9qWCITGeUYJrokbva9GPLPEWZHZxzFH52cek4M5VIFPp9gogMS3MXi2wr4Oib\nP30v0NEz8PS5cXd2gC+DfHc=\n-----END PRIVATE KEY-----\n",
-  "client_email": "firebase-adminsdk-f02tr@tinderxreal.iam.gserviceaccount.com",
-  "client_id": "107904499412102669887",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-f02tr%40tinderxreal.iam.gserviceaccount.com"
 }
 
 initializeApp(firebaseConfig);
